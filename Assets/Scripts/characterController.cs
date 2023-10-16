@@ -4,11 +4,21 @@ using UnityEngine;
 
 public class characterController : MonoBehaviour
 {
+    static characterController current;
+
+    public float movSpeed = 15;
     public float jumpForce = 50;
     public bool wantJump;
     public bool isInFloor;
     public float movX, movZ;
     Rigidbody rb;
+
+    public int coinManager = 0;
+
+    private void Awake()
+    {
+        current = this;
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -31,7 +41,7 @@ public class characterController : MonoBehaviour
     void FixedUpdate()
     {
         Vector3 speed = new Vector3(movX, 0, movZ);
-        rb.velocity = speed * 5;
+        rb.velocity = speed * movSpeed;
 
         if (wantJump && isInFloor)
         {
@@ -47,5 +57,10 @@ public class characterController : MonoBehaviour
         {
             isInFloor = true;
         }
+    }
+
+    public static void addCoin()
+    {
+        current.coinManager++;
     }
 }
