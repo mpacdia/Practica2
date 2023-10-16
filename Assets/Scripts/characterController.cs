@@ -9,7 +9,7 @@ public class characterController : MonoBehaviour
     public float movSpeed = 15;
     public float jumpForce = 50;
     public bool wantJump;
-    public bool isInFloor;
+    public bool isOnFloor;
     public float movX, movZ;
     Rigidbody rb;
 
@@ -43,11 +43,11 @@ public class characterController : MonoBehaviour
         Vector3 speed = new Vector3(movX, 0, movZ);
         rb.velocity = speed * movSpeed;
 
-        if (wantJump && isInFloor)
+        if (wantJump && isOnFloor)
         {
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             wantJump = false;
-            isInFloor = false;
+            isOnFloor = false;
         }
     }
 
@@ -55,7 +55,7 @@ public class characterController : MonoBehaviour
     {
         if (collision.gameObject.tag == "floor")
         {
-            isInFloor = true;
+            isOnFloor = true;
         }
     }
 
