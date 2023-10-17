@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 3294299009250357501}
   - component: {fileID: 3294299009250357500}
   - component: {fileID: 3294299009250357503}
-  - component: {fileID: 3294299009250357502}
   - component: {fileID: 3294299009250357497}
   - component: {fileID: 3294299009250357496}
   - component: {fileID: 3294299009250357499}
@@ -87,19 +86,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &3294299009250357502
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3294299009250357498}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &3294299009250357497
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -144,6 +130,7 @@ MonoBehaviour:
   movSpeed: 15
   jumpForce: 20
   wantJump: 0
-  isInFloor: 0
+  isOnFloor: 0
   movX: 0
   movZ: 0
+  coinManager: 0
