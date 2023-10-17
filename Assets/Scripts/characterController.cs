@@ -7,7 +7,7 @@ public class characterController : MonoBehaviour
     static characterController current;
 
     public float movSpeed = 15;
-    public float jumpForce = 50;
+    public float jumpForce = 500;
     public bool wantJump;
     public bool isOnFloor;
     public float movX, movZ;
