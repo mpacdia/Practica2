@@ -5,7 +5,7 @@ using UnityEngine;
 public class rotateCoin : MonoBehaviour
 {
 
-    public GameObject puntoGiro;
+    public GameObject rotationPoint;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +15,6 @@ public class rotateCoin : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.RotateAround(puntoGiro.transform.position, Vector3.up, 20 * Time.deltaTime);
+        transform.RotateAround(rotationPoint.transform.position, Vector3.up, 20 * Time.deltaTime);
     }
 }
