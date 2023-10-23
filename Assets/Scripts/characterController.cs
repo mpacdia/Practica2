@@ -40,8 +40,8 @@ public class characterController : MonoBehaviour
 
     void FixedUpdate()
     {
-        Vector3 speed = new Vector3(movX, 0, movZ);
-        rb.velocity = speed * movSpeed;
+        Vector3 speed = new Vector3(movX* movSpeed, rb.velocity.y, movZ * movSpeed);
+        rb.velocity = speed;
 
         if (wantJump && isOnFloor)
         {

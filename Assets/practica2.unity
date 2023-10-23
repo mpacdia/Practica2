@@ -841,6 +841,7 @@ MonoBehaviour:
   character: {fileID: 1721990357}
   offsetX: 0
   offsetZ: 0
+  firstPerson: 0
 --- !u!1001 &440643161
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4312,15 +4313,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3294299009250357497, guid: 25c185bb82f539c4c91759a68a40d643, type: 3}
       propertyPath: m_Drag
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3294299009250357497, guid: 25c185bb82f539c4c91759a68a40d643, type: 3}
       propertyPath: m_Mass
-      value: 1
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3294299009250357497, guid: 25c185bb82f539c4c91759a68a40d643, type: 3}
       propertyPath: m_AngularDrag
-      value: 22
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3294299009250357498, guid: 25c185bb82f539c4c91759a68a40d643, type: 3}
       propertyPath: m_Name
