@@ -15,6 +15,9 @@ public class characterController : MonoBehaviour
 
     public int coinManager = 0;
 
+    public GameObject wayPoint;
+    public float timer;
+
     private void Awake()
     {
         current = this;
@@ -36,7 +39,23 @@ public class characterController : MonoBehaviour
         {
             wantJump = true;
         }
+
+        if (timer > 0)
+        {
+            timer -= Time.deltaTime;
+        }
+        else if (timer <= 0)
+        {
+            UpdatePosition();
+            timer = 0.5f;
+        }
     }
+
+    void UpdatePosition()
+    {
+        wayPoint.transform.position = transform.position;
+    }
+
 
     void FixedUpdate()
     {
