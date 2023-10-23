@@ -5,7 +5,7 @@ using UnityEngine;
 public class enemyController : MonoBehaviour
 {
 
-    public float enemySpeed;
+    public float enemySpeed = 8;
     private GameObject wayPoint;
     public Vector3 wayPointPosition;
 
