@@ -13,6 +13,8 @@ public class characterController : MonoBehaviour
     public float movX, movZ;
     Rigidbody rb;
 
+    public float height;
+
     public int coinManager = 0;
 
     public GameObject wayPoint;
@@ -34,6 +36,7 @@ public class characterController : MonoBehaviour
     {
         movX = Input.GetAxis("Horizontal");
         movZ = Input.GetAxis("Vertical");
+        height = transform.position.y;
 
         if (Input.GetButtonDown("Jump"))
         {
@@ -48,6 +51,15 @@ public class characterController : MonoBehaviour
         {
             UpdatePosition();
             timer = 0.5f;
+        }
+
+        if (height < -1)
+        {
+            height = 3;
+        }
+        else if (height >= -1)
+        {
+            height = transform.position.y;
         }
     }
 
