@@ -20,6 +20,8 @@ public class characterController : MonoBehaviour
     public GameObject wayPoint;
     public float timer;
 
+    public AudioSource jumpSoundEffect;
+
     private void Awake()
     {
         current = this;
@@ -79,6 +81,7 @@ public class characterController : MonoBehaviour
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             wantJump = false;
             isOnFloor = false;
+            jumpSoundEffect.Play();
         }
     }
 
