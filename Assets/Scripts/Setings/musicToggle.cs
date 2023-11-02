@@ -8,13 +8,6 @@ public class musicToggle : MonoBehaviour
 
    public void toggle(bool newState)
     {
-        if (newState)
-        {
-            Debug.Log("Músic On");
-        }
-        else
-        {
-            Debug.Log("Music Off");
-        }
+        Debug.Log("Music On (" + newState + ")");
     }
 }
