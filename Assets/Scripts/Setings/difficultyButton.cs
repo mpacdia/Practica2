@@ -20,7 +20,7 @@ public class difficultyButton : MonoBehaviour
         difficultyListEnglish.Add("Easy"); difficultyListEnglish.Add("Normal"); difficultyListEnglish.Add("Hard");
         difficultyListSpanish.Add("Facil"); difficultyListSpanish.Add("Normal"); difficultyListSpanish.Add("Dificil");
         difficultyListItalian.Add("Facile"); difficultyListItalian.Add("Normale"); difficultyListItalian.Add("Difficile");
-        difficultyListCanarian.Add("De chill"); difficultyListCanarian.Add("Normal"); difficultyListCanarian.Add("Tenso");
+        difficultyListCanarian.Add("Tenerife"); difficultyListCanarian.Add("Lanzarote"); difficultyListCanarian.Add("El Hierro");
 
         difficultyList.Add(difficultyListEnglish); difficultyList.Add(difficultyListSpanish); difficultyList.Add(difficultyListItalian); difficultyList.Add(difficultyListCanarian);
 

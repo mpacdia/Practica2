@@ -29,6 +29,10 @@ MonoBehaviour:
     m_Address: Assets/Localization/Brillo Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: 91c87f4a57d10c24aae165d819264d69
+    m_Address: Assets/Localization/Start button Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 10dfce3d73a839d4ebe689b94b15a649, type: 2}
   m_SchemaSet:

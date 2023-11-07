@@ -10,27 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
-  m_Name: Music Shared Data
+  m_Name: Start button Shared Data
   m_EditorClassIdentifier: 
-  m_TableCollectionName: Music
-  m_TableCollectionNameGuidString: f49fc3c386042ff42b227cf58a456c48
+  m_TableCollectionName: Start button
+  m_TableCollectionNameGuidString: 91c87f4a57d10c24aae165d819264d69
   m_Entries:
-  - m_Id: 353718508400640
+  - m_Id: 35115446272
     m_Key: New Entry
-    m_Metadata:
-      m_Items: []
-  - m_Id: 356316967809024
-    m_Key: New Entry 1
     m_Metadata:
       m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
-    rid: 6748750844680732696
+    rid: 6748750866619039748
   references:
     version: 2
     RefIds:
-    - rid: 6748750844680732696
+    - rid: 6748750866619039748
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
       data:
-        m_CustomEpoch: 1699284512020
+        m_CustomEpoch: 1699368957840

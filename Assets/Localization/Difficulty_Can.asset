@@ -19,11 +19,11 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 274492764160
-    m_Localized: "Dificult\xE1"
+    m_Localized: Isla
     m_Metadata:
       m_Items: []
   - m_Id: 861116510208
-    m_Localized: De chill
+    m_Localized: Tenerife
     m_Metadata:
       m_Items: []
   references:
