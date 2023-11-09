@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Spanish (es)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Spanish (es)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 0c89afea989ac5041953f0d30a90bcae
+  m_SerializeEntries:
+  - m_GUID: 2c81df037728d7f498cb3c222fda921b
+    m_Address: spanish song
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+  - m_GUID: b4e45f4adc396d145922be342284311d
+    m_Address: spanish
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 10dfce3d73a839d4ebe689b94b15a649, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b3381b59f3a95314280ac1d6899f93e1, type: 2}
+    - {fileID: 11400000, guid: f73f03774cb75524ea8e94a51dd0c2e3, type: 2}

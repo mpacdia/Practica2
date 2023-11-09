@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Canario (Can)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Canario (Can)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 7ddaf7e1293f7ef45bc52d9fa87e360f
+  m_SerializeEntries:
+  - m_GUID: 08ffdf01e82e01e45810ec9077205fa0
+    m_Address: canarian song
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-Can
+  - m_GUID: 6a76b8c9bdba32f4c896e12f1c94a1c2
+    m_Address: canarian
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-Can
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 10dfce3d73a839d4ebe689b94b15a649, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 490d3ec73bf617f488d0159c566bbda1, type: 2}
+    - {fileID: 11400000, guid: 52e9deb3c0c89844594a8311a7417a68, type: 2}

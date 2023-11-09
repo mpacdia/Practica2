@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Asset-Tables-Canario (Can)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Asset-Tables-Canario (Can)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e99440a08fe03cc49823cdb447ba1349
+  m_SerializeEntries:
+  - m_GUID: b84015d15d2c60542875993cbb7c6742
+    m_Address: Music source_Can
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-Can
+    - Preload
+  - m_GUID: 8f25221bc03aee34487649d8b40ec24c
+    m_Address: Flags_Can
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-Can
+    - Preload
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 10dfce3d73a839d4ebe689b94b15a649, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a2aa5a174a03bde4198e9f104326ca21, type: 2}
+    - {fileID: 11400000, guid: 837f1cd3f4212e641830885dde41bfb5, type: 2}
